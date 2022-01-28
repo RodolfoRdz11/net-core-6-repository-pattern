@@ -5,8 +5,8 @@ namespace Contracts
     public interface IRepositoryBase<T>
     {
         IQueryable<T> FindAll();
-        Task<T?> FindById(Guid id);
-        Task<T?> Find(Expression<Func<T, bool>> expression);
+        Task<T> FindById(Guid id);
+        Task<T> Find(Expression<Func<T, bool>> expression);
         Task Create(T entity);
         void Update(T entity);
         void Delete(T entity);
