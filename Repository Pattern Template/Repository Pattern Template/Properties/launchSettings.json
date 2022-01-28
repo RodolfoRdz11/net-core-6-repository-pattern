@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "Repository_Pattern_Template": {
+    "Web_API": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

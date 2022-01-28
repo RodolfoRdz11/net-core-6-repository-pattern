@@ -1,4 +1,4 @@
-namespace Repository_Pattern_Template
+namespace Web_API
 {
     public class WeatherForecast
     {
